@@ -3,7 +3,7 @@ import BookCard from "../../components/BookCard/BookCard";
 import { getAllBooks, deleteBook } from "../../services/BookServices";
 import AddBook from "../../components/AddBook/AddBook";
 
-const Libros = () => {
+const Books = () => {
   const [books, setBooks] = useState([]);
   const [bookEdit, setBookEdit] = useState(null);
 
@@ -45,4 +45,4 @@ const Libros = () => {
   );
 }
 
-export default Libros;
+export default Books;

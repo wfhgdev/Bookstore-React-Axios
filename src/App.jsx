@@ -1,21 +1,23 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home/Home";
-// import Header from "./components/Header/Header";
-// import Footer from "./components/Footer/Footer";
+import Navbar from "./components/navbar/Navbar"
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/home/Home"
+import Books from "./pages/books/Books"
+import Location from "./pages/location/Location"
 
 function App() {
   return (
-    <div className="">
-      {/* <Header /> */}
-      <main className="">
+    <>
+      <Navbar />
+
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/libros" element={<Libros />} />
+          <Route path="/ubicacion" element={<Ubicacion />} />
         </Routes>
       </main>
-      {/* <Footer /> */}
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
