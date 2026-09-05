@@ -1,4 +1,4 @@
-# My Library 📚 - Taller de React con Axios y CRUD
+# My Library 📚 - Taller de React con Axios y CRUD by William Hernández
 
 Aplicación web interactiva tipo SPA (Single Page Application) desarrollada en **React**, **Vite** y **Tailwind CSS**, que permite gestionar una biblioteca de libros a través de un CRUD completo conectado a una API REST simulada con **JSON Server** mediante **Axios**.
 
