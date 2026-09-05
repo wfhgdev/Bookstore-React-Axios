@@ -19,10 +19,11 @@
       "year": 2000
     },
     {
-      "id": "7889",
-      "title": "aaaa",
-      "author": "eee",
-      "year": "1"
+      "title": "La biblia",
+      "author": "varios",
+      "year": "0",
+      "id": "OEd64K7JMHo"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

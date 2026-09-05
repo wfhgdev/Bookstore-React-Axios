@@ -8,8 +8,12 @@ const Books = () => {
   const [bookEdit, setBookEdit] = useState(null);
 
   const fetchBooks = async () => {
-    const data = await getAllBooks();
-    setBooks(data);
+    try {
+      const data = await getAllBooks();
+      setBooks(data || []);
+    } catch (error) {
+      console.error("Error al obtener los libros. ¿Está ejecutándose json-server?", error);
+    }
   };
 
   useEffect(() => {
