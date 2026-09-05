@@ -11,17 +11,17 @@ const Navbar = () => {
       <ul className="flex gap-6">
         <li className="hover:text-black cursor-pointer">
           <Link to="/">
-          Home
+            Home
           </Link>
         </li>
         <li className="hover:text-black cursor-pointer">
-          <Link to="/libros">
-          Libros
+          <Link to="/books">
+            Libros
           </Link>
         </li>
         <li className="hover:text-black cursor-pointer">
-          <Link to="/ubicacion">
-          Ubicación
+          <Link to="/location">
+            Ubicación
           </Link>
         </li>
       </ul>
