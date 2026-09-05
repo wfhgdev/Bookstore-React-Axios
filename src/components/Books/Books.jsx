@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import BookCard from "../components/BookCard";
-//importamos el componente
+import BookCard from "../components/BookCard/BookCard";
 import { getAllBooks } from "../services/BookServices";
 
 const booksFunction = () => {
